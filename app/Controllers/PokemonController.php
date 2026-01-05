@@ -100,7 +100,7 @@ public function import()
             } catch (\Exception $e) { continue; }
         }
 
-        return $this->response->setJSON(['status' => 'success', 'message' => "Berhasil impor $successCount Pokemon beserta kemampuannya."]);
+        return $this->response->setJSON(['status' => 'success', 'message' => "Berhasil impor Pokemon beserta kemampuannya."]);
 
     } catch (\Exception $e) {
         return $this->response->setStatusCode(500)->setJSON(['status' => 'error', 'error' => $e->getMessage()]);
