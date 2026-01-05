@@ -4,4 +4,4 @@
 4. jalankan php spark serve
 5. jika sudah berjalan masuk ke browser dengan url http://localhost:8080/pokemon untuk menampilkan data pokemon yang diambil dari database pokemon.sql
 
-6. untuk melakukan update data atau mengambil data yang terbaru, jalankan php spark serve lalu masuk ke browser dengan url http://localhost:8080/import-pokemon
+6. untuk melakukan update data atau import data yang terbaru, jalankan php spark serve lalu masuk ke browser dengan url http://localhost:8080/import-pokemon tunggu hingga proses import selesai
