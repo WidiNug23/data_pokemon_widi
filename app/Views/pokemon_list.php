@@ -41,7 +41,7 @@
                 <th>Nama</th>
                 <th>Base Experience</th>
                 <th>Ability</th> 
-                <th>Berat (Unit)</th>
+                <th>Berat</th>
             </tr>
         </thead>
         <tbody>
